@@ -1,0 +1,133 @@
+.Header {
+    top: 0; 
+    max-height: 80px;
+    width: 1600px;
+    background-color: #ffffff;
+  }
+  
+  .Nav {
+    left: 22.5%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    border: 1px light #000000;
+    box-sizing: border-box;
+    padding:11px 0;
+
+  }
+  .Nav .ReactTags__tags{
+    width: 346px;
+    height: 48px;
+    margin-left: 22.5%;
+    background-color: #E8E8E8;
+    border: 1px solid #016450;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flex;
+    flex-direction: row;
+  }
+  .div-1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+ .div-2{
+   width: 360px;
+    
+   right: 183px;
+   padding-left:50px;
+   display:flex;
+   justify-content: space-evenly;
+ }
+  .Nav a {
+    color: #1A1A1A;
+    font-size: 16px;
+    font-family: Book;
+    height: 26px;
+    text-decoration: none;
+    padding:auto;
+  }
+  
+  .Nav #button1 {
+    background-color: #016450 ;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    height: 48px;
+    width: 54px;
+    border: none;
+
+  }
+  #button1 i {
+      height:20px;
+      width:20px;
+      color: #fff;
+  }
+  #button2{
+    margin-right: 11.44%;
+    border:none;
+    background-color: #fff;
+  }
+  #button2 i {
+    height:20px;
+    width:20px;
+    color: #000;
+}
+   .input{
+     height: 30px;
+     width: 346px;
+    background-color: #F5F5F5;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-family: Book;
+    border: 3px solid #016450;
+    align-items: center;
+  }
+   
+
+/* Styles for the input */
+.ReactTags__tagInput {
+    width: 73px;
+    border-radius: 2px;
+    
+}
+.ReactTags__selected{
+  display: flex;
+  flex-direction: row;
+  padding: 12px 0;
+}
+ .ReactTags__selected span{
+  font: size 16px ;
+  font-family: Book;
+  width: 121px;
+  padding-left:10px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#E8E8E8;
+  color: #1A1A1A;
+ }
+.ReactTags__remove{
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  text-align: center;
+}
+.ReactTags__tag {
+  display: flex;
+  flex-direction: row;
+  width: 99px;
+  justify-content: space-between;
+}
+.ReactTags__tagInputField{
+  width: 73px;
+  font-family: Book;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #787878;  
+  border: none;
+  margin-left: 10px;
+}

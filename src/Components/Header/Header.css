@@ -36,9 +36,8 @@
   }
  .div-2{
    width: 360px;
-    
    right: 183px;
-   padding-left:50px;
+   margin-left:52px;
    display:flex;
    justify-content: space-evenly;
  }
@@ -67,9 +66,11 @@
      
   }
   #button2{
-    margin-right: 11.44%;
+    /* margin-right: 183px; */
+    padding-left:120px;
     border:none;
     background-color: #fff;
+    align-items: right;
   }
   #button2 i {
     height:20px;

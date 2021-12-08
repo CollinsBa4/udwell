@@ -18,8 +18,9 @@ export default function Header() {
          <div className="div-2">
           <a href="/">Udwell Now</a>
           <a href="/">Sell a property</a>
-          <button id="button2"><i className="fa fa-bars"></i></button>
          </div>
+         <button id="button2"><i className="fa fa-bars"></i></button>
+
         </nav>
     </header>
   );

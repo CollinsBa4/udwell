@@ -40,8 +40,8 @@ export default function Footer() {
                 </p>
                    <div class="social">
   	 				<a className="fa" href="/"><i class="fab fa-facebook-f"></i></a>
-  	 				<a className="ig" href="/"><i class=" fab fa-twitter"></i></a>
-  	 				<a className="fa" href="/"><i class="fab fa-instagram"></i></a>
+  	 				<a className="ig" href="/"><i class=" fab fa-instagram"></i></a>
+  	 				<a className="fa" href="/"><i class="fab fa-twitter"></i></a>
   	 			</div>
   	 		</div>
   	 	 

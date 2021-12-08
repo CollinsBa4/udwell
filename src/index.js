@@ -15,9 +15,9 @@ import './assets/fonts/AirbnbCereal-Medium.ttf';
  
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
 

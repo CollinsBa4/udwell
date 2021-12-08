@@ -2,7 +2,7 @@
 import "./Header.css"
 import InputSearch from './TagInput'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faSearch} from '@fortawesome/free-solid-svg-icons'
+import {faSearch,faBars} from '@fortawesome/free-solid-svg-icons'
 
 export default function Header() {
  
@@ -19,7 +19,7 @@ export default function Header() {
           <a href="/">Udwell Now</a>
           <a href="/">Sell a property</a>
          </div>
-         <button id="button2"><i className="fa fa-bars"></i></button>
+         <button id="button2"><FontAwesomeIcon icon={faBars} /></button>
 
         </nav>
     </header>

@@ -77,7 +77,6 @@ ul{
 	line-height: 40px;
 	border-radius: 50%;
 	color: #fff;
-	 
     background-color: #098B71;
 
 }
@@ -111,4 +110,8 @@ ul{
     color: #484848;
     font-family: Book;
     font-size: 14px;
+}
+i{
+	width: 24px;
+	height: 24px;
 }

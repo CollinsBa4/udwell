@@ -74,10 +74,11 @@
 }
 .head .btn1{
     background-color: #016450;
-    border-radius: 3px;
+    border-radius: 6px;
     width: 36px;
     height: 36px;
     color: white;
+    border: none;
 
 }
 .btn1 i{
@@ -86,9 +87,10 @@
 }
 .head .btn2{
     background-color: #FACF55;
-    border-radius: 3px;
+    border-radius: 6px;
     width: 36px;
     height: 36px;
+    border: none;
 
 }
 .btn2 i{
@@ -129,7 +131,7 @@
     flex-direction: row;
 }
 .p1{
-    font-family: Medium;
+    font-family: Bold;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

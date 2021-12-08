@@ -97,6 +97,9 @@
     
 }
  
+#userIcon{
+    color: white;
+}
 .bar{
     background-image: url("https://www.shutterstock.com/image-illustration/3d-rendering-orange-business-graph-background-1117937798");
 }

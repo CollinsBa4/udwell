@@ -3,9 +3,11 @@
      flex-direction: row;
      justify-content: space-between;
      margin-bottom: 30px;
+     margin-right: 183px;
  }
  .App{
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
+     background-color:#E5E5E5;
  }

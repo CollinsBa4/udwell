@@ -53,7 +53,7 @@ export default function Container() {
 
                  <span className="head">
                    <button className="btn2">
-                   <FontAwesomeIcon icon={faUser} />
+                   <FontAwesomeIcon id ="userIcon" icon={faUser} />
                    </button>
                   <span className="title">
                         <span className="name">User OnBoarding</span>

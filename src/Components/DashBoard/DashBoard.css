@@ -161,6 +161,18 @@ color: #1A1A1A;
     text-align: right;
     color: #A3A3A3;
     }
+.p5{
+    font-size:14px;
+    font-family: Book;
+    color: #348373;
+    margin-top:12px;
+}
+.p6{
+    font-size:14px;
+    font-family: Book;
+    color: #FF8433;
+    margin-top:12px;
+}
  
 #file{
     height: 4px;

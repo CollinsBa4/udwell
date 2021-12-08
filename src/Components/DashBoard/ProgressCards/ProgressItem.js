@@ -11,7 +11,7 @@ export  function ProgressItem({props}) {
         </div>
         <div className="Progress-middle">
             <span className="p3">{props.bottomLeft}</span>
-            <span>{props.bottomRight}</span>
+            <span className="p5">{props.bottomRight}</span>
         </div>
         <div className="Progress-bottom">
         <progress id="file" value="68" max="100"> 32% </progress>
@@ -33,12 +33,11 @@ export  function ProgressItem2({props}) {
         </div>
         <div className="Progress-middle">
             <span className="p3">{props.bottomLeft}</span>
-            <span>{props.bottomRight}</span>
+            <span className="p6">{props.bottomRight}</span>
         </div>
         <div className="Progress-bottom">
            
-                {/* <FontAwesomeIcon icon={faChartBar} /> */}
-                <img src="https://www.shutterstock.com/image-illustration/3d-rendering-orange-business-graph-background-1117937798" alt="bar chart"/>
+                <FontAwesomeIcon className="p6" icon={faChartBar} />
            
         </div>
         

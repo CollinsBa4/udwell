@@ -39,9 +39,9 @@ export default function Footer() {
                    PostCentre, Westport
                 </p>
                    <div class="social">
-  	 				<a className="fa" href="/"><i class="fab fa-facebook-f"></i></a>
-  	 				<a className="ig" href="/"><i class=" fab fa-instagram"></i></a>
-  	 				<a className="fa" href="/"><i class="fab fa-twitter"></i></a>
+  	 				<a className="fa" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+  	 				<a className="ig" href="http://www.instagram.com"><i class=" fab fa-instagram"></i></a>
+  	 				<a className="fa" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
   	 			</div>
   	 		</div>
   	 	 

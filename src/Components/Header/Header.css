@@ -58,12 +58,12 @@
     height: 48px;
     width: 54px;
     border: none;
-
+    color:#ffffff;
   }
   #button1 i {
       height:20px;
       width:20px;
-      color: #fff;
+     
   }
   #button2{
     margin-right: 11.44%;

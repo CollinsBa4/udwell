@@ -7,40 +7,38 @@ export default function Footer() {
   	 <div class="container">
   	 	<div class="row">
            <div class="footer-col">
-  	 			 <p>Counter Delivery, Carters Beach<br/>
+  	 			 <p className="pmedia">Counter Delivery, Carters Beach<br/>
                    PostCentre, Westport
                     </p>
 
                 
   	 		</div>
            <div class="footer-col">
-  	 			<h4>company</h4>
+  	 			<h4>About</h4>
   	 			<ul> 
-  	 				<li><a href="/">about us</a></li>
-  	 				<li><a href="/">our services</a></li>
-  	 				<li><a href="/">privacy policy</a></li>
-  	 				<li><a href="/">affiliate program</a></li>
+  	 				<li><a href="/">Company</a></li>
+  	 				<li><a href="/">Team</a></li>
+  	 				<li><a href="/">Careers</a></li>
+  	 				<li><a href="/">Blog</a></li>
   	 			</ul>
   	 		</div>
   	 		 
   	 		<div class="footer-col">
-  	 			<h4>get help</h4>
+  	 			<h4>Support</h4>
   	 			<ul>
-  	 				<li><a href="/">FAQ</a></li>
-  	 				<li><a href="/">shipping</a></li>
-  	 				<li><a href="/">returns</a></li>
-  	 				<li><a href="/">order status</a></li>
-  	 				<li><a href="/">payment options</a></li>
+  	 				<li><a href="/">Help Center</a></li>
+  	 				<li><a href="/">Cancellation Options</a></li>
+  	 				<li><a href="/">Neighbourhood Support</a></li>
+  	 				<li><a href="/">Trust and Safety</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
-  	 			<h4>online shop</h4>
-  	 			<ul>
-  	 				<li><a href="/">watch</a></li>
-  	 				<li><a href="/">bag</a></li>
-                       
-  	 			</ul>
-                   <div class="social-links">
+  	 			<h4>Address</h4>
+  	 			 <p>
+                    Counter Delivery, Carters Beach<br/>
+                   PostCentre, Westport
+                </p>
+                   <div class="social">
   	 				<a className="fa" href="/"><i class="fab fa-facebook-f"></i></a>
   	 				<a className="ig" href="/"><i class=" fab fa-twitter"></i></a>
   	 				<a className="fa" href="/"><i class="fab fa-instagram"></i></a>
@@ -48,6 +46,15 @@ export default function Footer() {
   	 		</div>
   	 	 
   	 	</div>
+        <div className="allrights">
+            Udwell, LLC. All rights reserved. 
+            <ul className="priv">
+                <li>Terms and Conditions </li>
+            </ul>
+            <ul className="priv">
+                <li>         Privacy Policy </li>
+            </ul>
+        </div>
   	 </div>
   </footer>
 

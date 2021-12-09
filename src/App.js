@@ -5,9 +5,9 @@ import DashBoard from './Components/DashBoard/Dashboard';
 import Footer from './Components/Footer/Footer';
 
 
-
 function App() {
   return (
+    
     <div className="App">
         <Header />
       <main>

@@ -133,6 +133,7 @@
   font-weight: normal;
   font-size: 16px;
   color: #787878;  
+  background-color: inherit;
   border: none;
   margin-left: 10px;
 }

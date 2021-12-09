@@ -3,6 +3,7 @@ import "./Header.css"
 import InputSearch from './TagInput'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faSearch,faBars} from '@fortawesome/free-solid-svg-icons'
+import {Link,BrowserRouter as Router} from 'react-router-dom'
 
 export default function Header() {
  
@@ -16,8 +17,13 @@ export default function Header() {
             </button>
          </div>
          <div className="div-2">
-          <a href="/">Udwell Now</a>
-          <a href="/">Sell a property</a>
+      <Router>
+          <Link to="/udwell"><a>Udwell Now</a></Link>
+          <Link to="/sellaproperty"><a>Sell a property</a></Link>
+
+          
+        </Router>
+      
          </div>
          <button id="button2"><FontAwesomeIcon icon={faBars} /></button>
 

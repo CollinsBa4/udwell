@@ -9,6 +9,7 @@ import './assets/fonts/AirbnbCereal-Bold.ttf';
 import './assets/fonts/AirbnbCereal-Book.ttf';
 import './assets/fonts/AirbnbCereal-Light.ttf';
 import './assets/fonts/AirbnbCereal-Medium.ttf';
+import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
 
 
 
@@ -16,6 +17,13 @@ import './assets/fonts/AirbnbCereal-Medium.ttf';
 
 ReactDOM.render(
   <>
+  <Router>
+      <Routes>
+        <Route path='/' component={App}/>
+        <Route path='/' component={App}/>
+      </Routes>
+
+    </Router>
     <App />
   </>,
   document.getElementById('root')

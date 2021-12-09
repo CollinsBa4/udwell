@@ -119,9 +119,13 @@
 .barImg{
     width:195px;
     height: 35px;
-   
 }
- 
+#myLine1 {
+    background-color: #FFF2EA;
+  }
+#myLine2 {
+    background-color: #EAF2F1;
+  }
 .title{
     display: flex;
     flex-direction: column;

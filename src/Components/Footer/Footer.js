@@ -49,10 +49,10 @@ export default function Footer() {
         <div className="allrights">
             Udwell, LLC. All rights reserved. 
             <ul className="priv">
-                <li>Terms and Conditions </li>
+                <li><a href="/">Terms and Conditions</a> </li>
             </ul>
             <ul className="priv">
-                <li>         Privacy Policy </li>
+                <li><a href="/">Privacy Policy</a> </li>
             </ul>
         </div>
   	 </div>

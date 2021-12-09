@@ -37,7 +37,7 @@ export default function Container() {
                          Daily profit
                      
                  </span>
-             <LineChart props={dataA} className="linear"/>
+             <LineChart id="myLine1" props={dataA} className="linear"/>
             </span>
         </div>
 
@@ -48,7 +48,7 @@ export default function Container() {
                          Daily acive clients
                      
                  </span>
-                <LineChart props={dataB} className="linear"/>
+                <LineChart id="myLine2" props={dataB} className="linear"/>
              </span>
                <span className="board-container">
 

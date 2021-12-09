@@ -107,11 +107,15 @@ ul{
 }
 .priv li{
     list-style-type: disc;
-    color: #484848;
-    font-family: Book;
-    font-size: 14px;
+    
 }
-.i{
-	width: 24px;
-	height: 24px;
+i{
+	 
+}
+.priv a{
+	text-decoration: none;
+    color: #484848;
+    font-size: 14px;
+
+
 }

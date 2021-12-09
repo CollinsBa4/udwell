@@ -1,35 +1,63 @@
-import React from 'react';
-import {Bar} from 'react-chartjs-2';
+
 import { Chart, registerables } from 'chart.js'
 
+import React, { useState, useEffect } from 'react'
+import {Bar} from 'react-chartjs-2'
 Chart.register(...registerables)
+ 
+ 
+ 
+ 
 
-const data = {
-   
-  datasets: [
-    {
-      
-      backgroundColor: 'rgba(255,99,132,0.2)',
-      borderColor: 'rgba(255,99,132,1)',
-      borderWidth: 1,
-     
-      data: [65, 59, 80, 81, 56, 55, 40]
+function BarChart() {
+  const data = {
+    labels: ["", "", "", "", ""],
+    datasets: [
+      {
+        label: ".",
+        data: [3, 2, 1, 4, 5],
+        backgroundColor: "#FF8433"
+      }
+    ]
+  };
+
+  const options = {
+    responsive: false,
+    scales: {
+      xAxes: [
+        {
+          gridLines: {
+            display: true,
+            drawBorder: false,
+            borderDash: [2, 2],
+            zeroLineColor: "blue"
+          },
+          categoryPercentage: 0.7,
+          barPercentage: 0.9,
+          ticks: {
+            beginAtZero: false
+          }
+        }
+      ],
+      yAxes: [
+        {
+          display: false,
+          gridLines: {
+            display: false,
+            zeroLineColor: "transparent"
+          },
+          ticks: {
+            beginAtZero: false
+          }
+        }
+      ]
     }
-  ]
-};
-function App() {
+  };
   return (
-    <>
-  
-        <Bar
-          data={data}
-          width={100}
-          height={50}
-          options={{
-            maintainAspectRatio: false
-          }}
-        />
+    <>    
+      <Bar width="200" height="100" data={data} options={options} />
     </>
   );
 }
-export default App;
+
+export default BarChart

@@ -102,8 +102,14 @@
 #userIcon{
     color: white;
 }
-.bar{
-    background-image: url("https://www.shutterstock.com/image-illustration/3d-rendering-orange-business-graph-background-1117937798");
+.barImg{
+    width:195px;
+    height: 25px;
+    padding-top:10px;
+}
+.empty{
+    width:0px;
+    height:0px;
 }
 .title{
     display: flex;

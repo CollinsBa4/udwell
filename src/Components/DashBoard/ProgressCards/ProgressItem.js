@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChartBar} from '@fortawesome/free-solid-svg-icons'
-
+import Bar from '../Chart/BarChart'
 export  function ProgressItem({props}) {
     return (
     <div className="Item">
@@ -14,12 +14,11 @@ export  function ProgressItem({props}) {
             <span className="p5">{props.bottomRight}</span>
         </div>
         <div className="Progress-bottom">
-        <progress id="file" value="68" max="100"> 32% </progress>
+             <progress id="file" value="68" max="100"> 32% </progress>
         </div>
         <div className="Progress-bottom">
             <span className="p4">{props.extra}</span>
-             
-        </div>
+       </div>
     </div>
     )
 }
@@ -34,11 +33,11 @@ export  function ProgressItem2({props}) {
         <div className="Progress-middle">
             <span className="p3">{props.bottomLeft}</span>
             <span className="p6">{props.bottomRight}</span>
+             
         </div>
+        
         <div className="Progress-bottom">
-           
-                <FontAwesomeIcon className="p6" icon={faChartBar} />
-           
+            <Bar />
         </div>
         
     </div>

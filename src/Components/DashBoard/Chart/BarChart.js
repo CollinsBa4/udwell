@@ -11,11 +11,11 @@ Chart.register(...registerables)
 
 function BarChart() {
   const data = {
-    labels: ["", "", "", "", ""],
+    labels: ["", "", "", "", "", "", ""],
     datasets: [
       {
         label: ".",
-        data: [3, 2, 1, 4, 5],
+        data: [3, 2, 1, 4,3,2,3],
         backgroundColor: "#FF8433"
       }
     ]

@@ -31,9 +31,9 @@ export default function UserProfile() {
             <div className="link-container">
                 <span>Profile Link</span> 
                <div className="input-container">
-                <input type="text" value={link.url}/>
+                <input id="link" type="text" value={link.url}/>
                 <button type="button" >
-                <FontAwesomeIcon className="fontAwesomeIcon" icon={link.icon} />
+                <FontAwesomeIcon className="i" icon={link.icon} />
                 </button>
                </div>
             </div>

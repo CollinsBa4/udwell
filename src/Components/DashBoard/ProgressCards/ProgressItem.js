@@ -25,7 +25,7 @@ export  function ProgressItem({props}) {
 
 export  function ProgressItem2({props}) {
     return (
-    <div className="Item">
+    <div className="Item2">
         <div className="Progress-top">
             <span className="p1">{props.topleft}</span>
             <span className="p2">{props.topRight}</span>
@@ -36,9 +36,11 @@ export  function ProgressItem2({props}) {
              
         </div>
         
-        <div className="Progress-bottom">
-            <Bar />
-        </div>
+         <div className="barImg">
+            <Bar  />
+
+         </div>
+      
         
     </div>
     )

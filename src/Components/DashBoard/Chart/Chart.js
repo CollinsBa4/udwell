@@ -41,7 +41,13 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [6,4,5,8,7,4,6]
+      data: [6,4,5,8,7,4,6],options: {
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+      }
     }
   ]
 };

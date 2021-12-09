@@ -1,7 +1,7 @@
 
 import { Chart, registerables } from 'chart.js'
 
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import {Bar} from 'react-chartjs-2'
 Chart.register(...registerables)
  
@@ -24,14 +24,18 @@ function BarChart() {
   const options = {
     responsive: false,
     scales: {
+      y: {
+        ticks: {
+          display: false,
+        },x: {
+          grid: {
+            display: false,
+          },
+        }
+      },
       xAxes: [
         {
-          gridLines: {
-            display: true,
-            drawBorder: false,
-            borderDash: [2, 2],
-            zeroLineColor: "blue"
-          },
+        
           categoryPercentage: 0.7,
           barPercentage: 0.9,
           ticks: {
@@ -42,20 +46,22 @@ function BarChart() {
       yAxes: [
         {
           display: false,
-          gridLines: {
-            display: false,
-            zeroLineColor: "transparent"
-          },
+         
           ticks: {
             beginAtZero: false
           }
         }
       ]
     }
+    ,plugins: {
+      legend: {
+        display: false
+      }
+    }
   };
   return (
     <>    
-      <Bar width="200" height="100" data={data} options={options} />
+      <Bar  width="190" height="80" data={data} options={options} />
     </>
   );
 }

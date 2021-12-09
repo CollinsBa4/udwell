@@ -14,9 +14,10 @@ function BarChart() {
     labels: ["", "", "", "", "", "", ""],
     datasets: [
       {
-        label: ".",
         data: [3, 2, 1, 4,3,2,3],
-        backgroundColor: "#FF8433"
+        backgroundColor: "#FF8433",
+        borderRadius: 2
+         
       }
     ]
   };
@@ -24,13 +25,17 @@ function BarChart() {
   const options = {
     responsive: false,
     scales: {
+      x: {
+        grid: {
+          display: false,
+        },
+      },
       y: {
+        grid: {
+        display: false,
+      },
         ticks: {
           display: false,
-        },x: {
-          grid: {
-            display: false,
-          },
         }
       },
       xAxes: [
@@ -61,7 +66,7 @@ function BarChart() {
   };
   return (
     <>    
-      <Bar  width="190" height="80" data={data} options={options} />
+      <Bar  width="195" height="50" data={data} options={options} />
     </>
   );
 }

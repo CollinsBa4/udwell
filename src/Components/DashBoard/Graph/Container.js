@@ -2,10 +2,11 @@ import React from 'react'
 import '../DashBoard.css'
 import Doughnut from'./Graph'
 import { data1,data2 } from   './ChartData'
-import Line from '../Chart/Chart'
+import {LineChart} from '../Chart/Chart'
 import {faMoneyBill} from '@fortawesome/free-solid-svg-icons'
 import {faUser} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {dataA,dataB} from '../Chart/Chart'
 export default function Container() {
     return (
     <>
@@ -36,7 +37,7 @@ export default function Container() {
                          Daily profit
                      
                  </span>
-             <Line className="linear"/>
+             <LineChart props={dataA} className="linear"/>
             </span>
         </div>
 
@@ -47,7 +48,7 @@ export default function Container() {
                          Daily acive clients
                      
                  </span>
-                <Line className="linear"/>
+                <LineChart props={dataB} className="linear"/>
              </span>
                <span className="board-container">
 

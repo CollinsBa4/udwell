@@ -80,7 +80,7 @@
 .fontAwesomeIcon {
     height:24px;
     width: 24px;
-    /* color: transparent; */
+    color: #A3A3A3;
 }
 .link-container {
     height:74px;
@@ -117,4 +117,7 @@
     border-bottom-right-radius: 6px;
     border: none;
     
+ }
+ i{
+     color: #A3A3A3;
  }

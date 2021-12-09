@@ -1,7 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faChartBar} from '@fortawesome/free-solid-svg-icons'
 import Bar from '../Chart/BarChart'
+
 export  function ProgressItem({props}) {
     return (
     <div className="Item">

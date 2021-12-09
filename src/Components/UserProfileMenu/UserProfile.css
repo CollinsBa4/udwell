@@ -28,7 +28,9 @@
     width:158px;
     margin: 0 65px;
 }
- 
+.pcontainer2{
+    margin: 0 65px;
+}
 .name{
     font-family: Medium;
     font-size: 18px;
@@ -44,14 +46,14 @@
     border-radius:50%;
     height:78px;
     width:78px;
-    margin: 0 40px;
+    margin-left: 40px; 
 
 }
 .camera-button{
     border-radius:50%;
     height:20px;
     width: 20px;
-    background-color:#016450;
+    color:#016450;
 }
 .profile-menu{
     margin: 0 15px;
@@ -86,7 +88,16 @@
 .camIcon {
     height:24px;
     width: 24px;
-    color: #A3A3A3;
+    color: #016450;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 90px; 
+    z-index: 1;
+}
+
+.profile-icon{
+     position: absolute;
+     margin-top:40px;
 }
 .link-container {
     height:74px;

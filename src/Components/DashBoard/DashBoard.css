@@ -61,6 +61,14 @@
    background-color: #FFFFFF;
    padding: 0 0 20px 0;
 }
+.line-graph span{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px 4px;
+    width: 100%;
+    /* border: 1px solid #016450; */
+}
 .linear{
     width: 487px;
     height: 131px;
@@ -120,12 +128,10 @@
     width:195px;
     height: 35px;
 }
-#myLine1 {
-    background-color: #FFF2EA;
+.myLine1 {
+    color: #9EA0A5;
   }
-#myLine2 {
-    background-color: #EAF2F1;
-  }
+ 
 .title{
     display: flex;
     flex-direction: column;

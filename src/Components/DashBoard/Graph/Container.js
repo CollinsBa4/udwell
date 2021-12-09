@@ -3,7 +3,7 @@ import '../DashBoard.css'
 import Doughnut from'./Graph'
 import { data1,data2 } from   './ChartData'
 import {LineChart} from '../Chart/Chart'
-import {faMoneyBill} from '@fortawesome/free-solid-svg-icons'
+import {faMoneyBill,faEllipsisH} from '@fortawesome/free-solid-svg-icons'
 import {faUser} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {dataA,dataB} from '../Chart/Chart'
@@ -20,6 +20,8 @@ export default function Container() {
                         <span className="name">Total Sales</span>
                         <span className="value">+985.56</span>
                     </span>
+                    <FontAwesomeIcon className="myLine1" icon={faEllipsisH} />
+
                  </span>
             <span className="board">
                 
@@ -33,8 +35,9 @@ export default function Container() {
         </span>
             <span className="line-graph">
                 <span>
-                     
-                         Daily profit
+
+                        <> Daily profit</>
+                        <FontAwesomeIcon className="myLine1" icon={faEllipsisH} />
                      
                  </span>
              <LineChart id="myLine1" props={dataA} className="linear"/>
@@ -45,11 +48,12 @@ export default function Container() {
              <span className="line-graph">
                  <span>
                      
-                         Daily acive clients
-                     
+                        <> Daily acive clients</>
+                        <FontAwesomeIcon className="myLine1" icon={faEllipsisH} />
                  </span>
-                <LineChart id="myLine2" props={dataB} className="linear"/>
+                <LineChart  props={dataB} className="linear"/>
              </span>
+
                <span className="board-container">
 
                  <span className="head">
@@ -60,6 +64,8 @@ export default function Container() {
                         <span className="name">User OnBoarding</span>
                         <span className="value">Q3 Goal:8,000 User</span>
                     </span>
+                    <FontAwesomeIcon className="myLine1" icon={faEllipsisH} />
+
                  </span>
                  <span className="board">
                      <Doughnut className="chart" props={data2}/>

@@ -10,12 +10,15 @@ export default function UserProfile() {
     return (
         <div className="Sidebar ">
             <div className="profile-container">
-                <img id="dp" src={link.img} alt="User"/>
-                    <FontAwesomeIcon className="fontAwesomeIcon" icon = {faCamera}/>
-                <p className="name">{link.name}</p>
-                <p className="type">Home Buyer</p>
-
+                <span className="sp">
+                <img className="profile-icon" id="dp" src={link.img} alt="User"/>
+                    <FontAwesomeIcon className="camIcon" icon = {faCamera}/>
+                </span>
             </div>
+            <div className="pcontainer2">
+            <p className="name">{link.name}</p>
+                <p className="type">Home Buyer</p>
+            </div>    
             <button class="btn btn-primary btn-sm edit">Edit Profile</button>
             <div className= "profile-menu">           
                   {

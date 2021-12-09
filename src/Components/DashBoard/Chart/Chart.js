@@ -77,6 +77,7 @@ export const dataB = {
   labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
   datasets: [
     {
+      label: '.',
       fill: false,
       lineTension: 0.1,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -94,35 +95,38 @@ export const dataB = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: [6,4,5,8,7,4,6]
-    }
-  ],
-  options :{
-    chartArea: {
-      backgroundColor: 'rgba(255, 242, 234, 0.4)'
-  },
-    plugins: {
-      legend: {
-        display: false
-      }
-    }
-    ,
-    scales: {
-      x: {
-        grid: {
-          display: false,
-        },
+      data: [6,4,5,8,7,4,6],
+      options :{
+        chartArea: {
+          backgroundColor: 'rgba(255, 242, 234, 0.4)'
       },
-      y: {
-        grid: {
-        display: false,
-      },
-        ticks: {
-          display: false,
+        plugins: {
+          legend: {
+            display: false
+          }
+        }
+        ,
+        scales: {
+          x: {
+            grid: {
+              display: false,
+            },
+          },
+          y: {
+            grid: {
+            display: false,
+          },
+            ticks: {
+              autoSkip: false,
+              maxRotation: 90,
+              minRotation: 90
+            }
+          }
         }
       }
     }
-  }
+  ],
+ 
   
 };
 

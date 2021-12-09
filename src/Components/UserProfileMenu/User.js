@@ -25,5 +25,5 @@ export const link ={
     name:"Alex Assenmacher",
     url: 'https://www.udwell.com/p.',
     icon: faClone,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFQslg390P0p9m1gi8dH4UTbmHLfKtpWqW4A&usqp=CAU"
+    img:'https://blob.sololearn.com/avatars/484068b6-f9bc-43c0-8478-71af5a47066a.jpg'
 }

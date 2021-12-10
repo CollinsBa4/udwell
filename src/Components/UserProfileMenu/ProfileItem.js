@@ -9,7 +9,7 @@ export default function ProfileItem({props}) {
             <hr />
             <span >{props.name}</span>
             <button className="profile-btn">
-            <FontAwesomeIcon className="fontAwesomeIcon" icon={props.icon} />
+                {props.icon}
             </button>
         </div>
     )

@@ -54,7 +54,9 @@ ul{
     display: flex;
     flex-direction: row;
 }
- 
+.social a {
+	 justify-content:center;
+}
 .f{
 	display: inline-block;
 	height: 50px;
@@ -64,6 +66,7 @@ ul{
 	border-radius: 50%;
 	color: #098B71;
     background-color: #FFF;
+	padding-top:5px;
 	
 }
 .ig{
@@ -75,7 +78,7 @@ ul{
 	border-radius: 50%;
 	color: #fff;
     background-color: #098B71;
-
+	padding-top:5px;
 }
  
 .pmedia{
@@ -100,8 +103,11 @@ ul{
     
 }
 .priv li{
-    list-style-type: disc;
-    
+    list-style-type: disc; 
+}
+.priv ul{
+    justify-content:space-between;
+
 }
  
 .priv a{

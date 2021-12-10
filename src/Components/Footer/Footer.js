@@ -42,7 +42,7 @@ export default function Footer() {
                 </p>
                    <div class="social">
   	 				<a className="f" href="http://www.facebook.com"><i class="fa fa-facebook icon"></i></a>
-  	 				<a className="ig" href="http://www.instagram.com"><i class=" fab fa-instagram"></i></a>
+  	 				<a className="ig" href="http://www.instagram.com"><i class=" fa fa-instagram icon"></i></a>
   	 				<a className="f" href="http://www.twitter.com"><i class="fa fa-twitter icon"></i></a>
   	 			</div>
   	 		</div>

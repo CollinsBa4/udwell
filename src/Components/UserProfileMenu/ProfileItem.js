@@ -1,6 +1,5 @@
 import React from 'react'
 import './UserProfile.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
  
 export default function ProfileItem({props}) {
 

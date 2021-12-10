@@ -2,7 +2,7 @@
 import "./Header.css"
 import InputSearch from './TagInput'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faSearch,faBars} from '@fortawesome/free-solid-svg-icons'
+import {faSearch} from '@fortawesome/free-solid-svg-icons'
 import {Link,BrowserRouter as Router} from 'react-router-dom'
 
 export default function Header() {
